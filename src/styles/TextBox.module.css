@@ -1,0 +1,47 @@
+input {
+  border: 1px solid #818588;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 40px;
+  background-color: transparent;
+  width: 100%;
+}
+.input {
+  position: relative;
+}
+.output,
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.output {
+  background-color: #303134;
+  border-radius: 10px;
+}
+textarea {
+  background-color: transparent;
+  color: #bdc1c6;
+  border: none;
+  resize: none;
+  padding: 0.8rem 1.2rem 1.4rem 0.9rem;
+  min-height: 146px;
+  border-radius: 10px;
+  outline: none;
+  overflow: auto;
+  font-size: 28px;
+  margin-top: 10px;
+  margin: 0;
+}
+.input .delete {
+  position: absolute;
+  left: 98%;
+  /* top: 2%; */
+  font-size: 25px;
+  color: #5a5a5d;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.input .delete:hover {
+  color: #bdc1c6;
+}

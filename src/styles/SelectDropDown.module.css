@@ -1,0 +1,46 @@
+.select_drop_down .down_arrow svg {
+  position: relative;
+  left: 93%;
+  top: -33px;
+  width: 26px;
+  height: 26px;
+  fill: #8ab4f8;
+  cursor: pointer;
+}
+.select_drop_down input {
+  color: #8ab4f8;
+  padding: 5px 15px;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+}
+.select_drop_down {
+  width: 50%;
+}
+.arrow_container {
+  padding: 8px;
+}
+
+.arrow_container svg {
+  width: 26px;
+  height: 26px;
+  fill: #5a5a5d;
+  cursor: pointer;
+}
+.arrow_container svg:hover {
+  fill: #bdc1c6;
+}
+
+.container {
+  display: flex;
+}
+@media (max-width: 800px) {
+  .select_drop_down .down_arrow svg {
+    left: 90%;
+  }
+}
+@media (max-width: 470px) {
+  .select_drop_down .down_arrow svg {
+    left: 80%;
+  }
+}
